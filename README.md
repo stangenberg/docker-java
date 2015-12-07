@@ -1,13 +1,13 @@
 # Docker java-builder
 
-[Java][JAVA] build container for [drone ci][DRONE]
+[Java][JAVA] container
 
-Dockerhub: [thstangenberg/java-builder][DOCKERHUB]
+Dockerhub: [stangenberg/java][DOCKERHUB]
 
 
 ## Features ##
 
-- [Java][JAVA]
+- [Java 8][JAVA]
 
 
 ## Exposed volumes ##
@@ -17,7 +17,7 @@ None.
 
 ## Exposed ports ##
 
-- 22 / SSH 
+- 22 / SSH
 
 
 ## Environment Variables
@@ -27,18 +27,19 @@ None.
 
 ## Usage ##
 
-add `image: thstangenberg/java` to your .done.yml to use the latest version. Currently java 8.
+### With [Drone][DRONE]
+add `image: stangenberg/java` to your .done.yml to use the latest version. Currently java 8.
 
-- use `image: thstangenberg/java:8` for java 8
-- use `image: thstangenberg/java:7` for java 7
+- use `image: stangenberg/java:8` for java 8
+- use `image: stangenberg/java:7` for java 7
 
 
-## Build 
+## Build
 
 Make is used as build system.
 
 - `make` / starts normal docker build.
-- `make run` / build and run the container. This uses `java-builder` as container name and automatically stops a running container with an equal name beforehand. 
+- `make run` / build and run the container. This uses `java` as container name and automatically stops a running container with an equal name beforehand.
 - `make bash` /  build, run the container and start a bash prompt.
 - `make ncbuild` / normal build without using the docker cache ( --no-cache ).
 
@@ -51,5 +52,5 @@ Make is used as build system.
 
 [DRONE]: https://github.com/drone/drone
 [JAVA]: https://www.java.com/en/
-[DOCKERHUB]: https://hub.docker.com/u/stangenberg/docker-java-builder
-[LICENSE]: https://bitbucket.org/stangenberg/docker-java-builder/src/master/LICENSE.md "Published under the MIT License"
+[DOCKERHUB]: https://hub.docker.com/u/stangenberg/docker-java
+[LICENSE]: https://github.com/stangenberg/docker-java/blob/master/LICENSE.md
