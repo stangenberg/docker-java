@@ -1,4 +1,4 @@
-FROM thstangenberg/baseimage:latest
+FROM stangenberg/baseimage:latest
 
 MAINTAINER Thorben Stangenberg <thorben@stangenberg.net>
 
@@ -19,4 +19,4 @@ RUN apt-get install oracle-java8-set-default
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* \
            /tmp/* \
-           /var/tmp/* 
+           /var/tmp/*
