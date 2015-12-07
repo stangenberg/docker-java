@@ -4,7 +4,7 @@ DOCKER_USER=stangenberg
 # Change this to suit your needs.
 CONTAINER_NAME=java
 DOCKER_IMAGE=java
-DOCKER_TAG=latest
+DOCKER_TAG=7
 
 # find the runnings instances
 RUNNING=$(shell docker ps | grep $(CONTAINER_NAME) | cut -f 1 -d ' ')

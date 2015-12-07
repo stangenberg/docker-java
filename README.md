@@ -7,7 +7,7 @@ Dockerhub: [stangenberg/java][DOCKERHUB]
 
 ## Features ##
 
-- [Java 8][JAVA]
+- [Java 7][JAVA]
 
 
 ## Exposed volumes ##
