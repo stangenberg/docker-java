@@ -1,7 +1,7 @@
 # Docker java-builder
 [Java][JAVA] container
 
-[![Docker Stars](https://img.shields.io/docker/stars/stangenberg/java.svg)][hub] [![Docker Pulls](https://img.shields.io/docker/pulls/stangenberg/java.svg)][hub] [![Image Size](https://img.shields.io/imagelayers/image-size/stangenberg/java/8.svg)](https://imagelayers.io/?images=stangenberg/java:8) [![Image Layers](https://img.shields.io/imagelayers/layers/stangenberg/java/8.svg)](https://imagelayers.io/?images=stangenberg/java:8)
+[![Docker Stars](https://img.shields.io/docker/stars/stangenberg/java.svg)][dockerhub] [![Docker Pulls](https://img.shields.io/docker/pulls/stangenberg/java.svg)][dockerhub] [![Image Size](https://img.shields.io/imagelayers/image-size/stangenberg/java/8.svg)](https://imagelayers.io/?images=stangenberg/java:8) [![Image Layers](https://img.shields.io/imagelayers/layers/stangenberg/java/8.svg)](https://imagelayers.io/?images=stangenberg/java:8)
 
 ## Features
 - [Java 8][JAVA]
